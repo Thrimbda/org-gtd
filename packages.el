@@ -717,7 +717,7 @@ as the default task."
             (when bh/keep-clock-running
               (bh/clock-in-default-task)))))))
 
-  (defvar bh/organization-task-id "e2fb68ed-2c63-4f32-9fa3-9ce17349191e")
+  (defvar bh/organization-task-id "3CA66213-50ED-48B9-8E24-310B0959DA75")
 
   (defun bh/clock-out-maybe ()
     (when (and bh/keep-clock-running
