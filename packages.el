@@ -601,7 +601,7 @@ so change the default 'F' binding in the agenda to allow both"
   ;;   ;; (setq ido-default-file-method 'selected-window)
   ;;   ;; (setq ido-default-buffer-method 'selected-window)
   ;;   ;; ;; Use the current window for indirect buffer display
-  ;;   ;; (setq org-indirect-buffer-display 'current-window)
+  (setq org-indirect-buffer-display 'current-window)
 
 ;;;; Refile settings
   ;; Exclude DONE state tasks from refile targets
