@@ -556,6 +556,8 @@ so change the default 'F' binding in the agenda to allow both"
                  "* NEXT Respond to %:from on %:subject\nSCHEDULED: %t\n%U\n%a\n" :clock-in t :clock-resume t :immediate-finish t)
                 ("n" "note" entry (file "~/OneDrive/cone/refile.org")
                  "* %? :NOTE:\n%U\n%a\n" :clock-in t :clock-resume t)
+                ("b" "book" entry (file "~/OneDrive/cone/books.org")
+                 "* TODO Read %? :BOOK:\n%U" :clock-in t :clock-resume t)
                 ("j" "Journal" entry (file+datetree "~/OneDrive/cone/diary.org")
                  "* %?\n%U\n" :clock-in t :clock-resume t)
                 ("w" "org-protocol" entry (file "~/OneDrive/cone/refile.org")
